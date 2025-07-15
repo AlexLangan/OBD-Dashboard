@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fiesta EcoBoost Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Ford Fiesta EcoBoost Dashboard</h1>
+
+    <div class="dashboard">
+        <div class="gauge" id="rpm-gauge">
+            <span class="gauge-label">Engine RPM</span>
+            <div>
+                <span class="gauge-value" id="rpm">0</span>
+            </div>
+        </div>
+
+        <div class="gauge" id="speed-gauge">
+            <span class="gauge-label">Vehicle Speed</span>
+            <div>
+                <span class="gauge-value" id="speed">0</span>
+                <span class="unit">mp/h</span>
+            </div>
+        </div>
+
+        <div class="gauge" id="coolant-gauge">
+            <span class="gauge-label">Coolant Temp</span>
+            <div>
+                <span class="gauge-value" id="coolant">0</span>
+                <span class="unit">°C</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

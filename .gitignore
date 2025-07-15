@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+venv/
+
+.env
+secrets.py
+
+# OS junk
+.DS_Store
+Thumbs.db
