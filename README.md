@@ -1,6 +1,6 @@
 # Real-Time OBD-II Dashboard
 
-![Dashboard Preview](./preview.png) *(replace with actual screenshot)*
+ *(replace with actual screenshot later)*
 
 A clean web interface to monitor your car's performance data using browser-based JavaScript.
 
